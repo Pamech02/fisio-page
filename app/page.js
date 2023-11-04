@@ -24,7 +24,10 @@ export default function Home() {
                   <a href="#multimedia" className="text-white hover:underline">Multimedia</a>
                 </li>
                 <li>
-                  <a href="#coment" className="text-white hover:underline">Comentarios</a>
+                  <a href="#resumen" className="text-white hover:underline">Resumenes</a>
+                </li>
+                <li>
+                  <a href="#fin" className="text-white hover:underline">Conclusion y recomendacion</a>
                 </li>
               </ul>
             </div>
@@ -124,87 +127,153 @@ export default function Home() {
           </li>
         </ol>
         <div className="flex flex-col items-center">
-      <Image src="/imagen.jpeg" alt="analisis de los datos" width={700} height={700} />
-    </div>
+          <Image src="/imagen.jpeg" alt="analisis de los datos" width={700} height={700} />
+        </div>
       </section>
       <section id='multimedia' className='scroll-mt-[9rem] mt-20 pl-10'>
         <h2 className="text-2xl font-bold">Multimedia:</h2>
         <h3 className="text-black text-xl">Audios</h3>
-        <ul className="list-inside columns-2 space-y-4">
-          <li>
-            <audio controls>
-              <source src="/audio1.mp3" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </li>
-          <li>
-            <audio controls>
-              <source src="/audio2.mp3" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </li>
-          <li>
-            <audio controls>
-              <source src="/audio3.mp3" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </li>
-          <li>
-            <audio controls>
-              <source src="/audio4.mp3" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </li>
-          <li>
-            <audio controls>
-              <source src="/audio5.mp3" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </li>
-          <li>
-            <audio controls>
-              <source src="/audio6.mp3" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </li>
-          <li>
-            <audio controls>
-              <source src="/audio7.mp3" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </li>
-          <li>
-            <audio controls>
-              <source src="/audio8.mp3" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </li>
-          <li>
-            <audio controls>
-              <source src="/audio9.mp3" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </li>
-          <li>
-            <audio controls>
-              <source src="/audio10.mp3" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </li>
-        </ul>
+        <div className="flex flex-col items-center">
+          <ul className="list-inside columns-2 space-y-4">
+            <li>
+              <audio controls>
+                <source src="/audio1.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </li>
+            <li>
+              <audio controls>
+                <source src="/audio2.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </li>
+            <li>
+              <audio controls>
+                <source src="/audio3.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </li>
+            <li>
+              <audio controls>
+                <source src="/audio4.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </li>
+            <li>
+              <audio controls>
+                <source src="/audio5.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </li>
+            <li>
+              <audio controls>
+                <source src="/audio6.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </li>
+            <li>
+              <audio controls>
+                <source src="/audio7.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </li>
+            <li>
+              <audio controls>
+                <source src="/audio8.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </li>
+            <li>
+              <audio controls>
+                <source src="/audio9.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </li>
+            <li>
+              <audio controls>
+                <source src="/audio10.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </li>
+          </ul>
+        </div>
+
         <h3 className="text-black text-xl">Video</h3>
         <div className="flex flex-col items-center">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/nuBUs5twNvE?si=x3mWt94p_ZITCJKv"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      ></iframe>
-    </div>
-        
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/nuBUs5twNvE?si=x3mWt94p_ZITCJKv"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+      <section id='resumen' className='scroll-mt-[9rem] mt-20 pl-10'>
+        <h2 className="text-2xl font-bold">Resumenes:</h2>
+        <div className="flex flex-col space-y-3">
+          <h2 className="text-black font-semibold text-m">LINK 1: IDENTIDAD </h2>
+
+          <p>Dentro del analisis acerca de este sitio web, podemos dilucidar que es una página que cuenta con informacion dividida en secciones dfierentes para que se pueda observar de una manera ordenada las seccions y subsecciónes. Esta pagina cuenta con entrevistas de diferentes fuentes que  ayudan a la explicación del tema mencionado en su encabezado.
+            Representaciones sociales de la calidad de vida, en adultos mayores diagnosticados con Diabetes Mellitus.
+
+            La identidad y el bienestar de las personas con diabetes están estrechamente relacionados con su salud psicológica, nutrición, actividad física, apoyo emocional y social, nivel de dependencia, así como la adhesión a normas y valores. La forma en que enfrentan su condición y reciben apoyo en estas áreas puede influir significativamente en su calidad de vida y en la gestión de la enfermedad a lo largo del tiempo.
+          </p>
+
+
+          <h2 className="text-black font-semibold text-m">LINK 2: APOYO EMOCIONAL, ECONÓMICO Y SOCIAL</h2>
+
+          <p>En conclusion, el analisis denota que esta pagina cuenta con los requisitos para que sea una pagina amigable con el usuario, de esa manera permitir que sus usuarios tengan una navegación sencilla y rápida al mismo tiempo, sin tener que consultar y buscar el contenido deseado dentro del mismo.
+
+            Los pacientes entrevistados cuentan con un sólido apoyo de sus familiares, que los escuchan, ofrecen consejos y se adaptan a las limitaciones alimentarias. Se sienten cómodos comunicándose con su familia, especialmente con sus hijos, y confían en que recibirían visitas frecuentes si vivieran solos. Aunque ninguno ha recibido terapia psicológica, tienen diversas fuentes de apoyo económico, ya sea a través de su trabajo, pensiones o el respaldo de sus hijos en situaciones de emergencia. Los hijos también desempeñan un papel importante en la gestión de las citas médicas, y en general, la familia y algunos amigos son parte fundamental del proceso de apoyo a estos pacientes.
+          </p>
+
+
+          <h2 className="text-black font-semibold text-m">LINK 3 ACTIVIDAD FÍSICA </h2>
+
+
+          <p>
+            La actividad física se vincula estrechamente con la independencia y la salud en general, destacando la importancia de promover un estilo de vida activo en adultos mayores. La red de apoyo, tanto emocional como económica, se basa en la confianza, la cooperación y el amor de la familia y, en ocasiones, de amigos y vecinos.
+
+            Las representaciones sociales de la calidad de vida en adultos mayores con diabetes son un tema crucial en el campo de la salud y el bienestar. Estas representaciones reflejan la percepción y las expectativas de este grupo de población en lo que respecta a su calidad de vida, y están influidas por una serie de factores que van más allá de las cuestiones médicas. La calidad de vida en adultos mayores con diabetes no solo se basa en el control de la enfermedad y la prevención de complicaciones, sino también en aspectos emocionales, sociales y culturales.
+          </p>
+
+          <h2 className="text-black font-semibold text-m">LINK 4:  NORMAS Y VALORES </h2>
+
+
+          <p>En virtud de los previsto acerca de esta pagina, se puede llegar a denotar que cuenta con el logo de la insitución que lo representa en el inicio de dicha pagina, haciendo denotar su validez dentro de la misma. Conteniendo diferentes subsecciones las cuales determinana cada una de las categorias que se encuentra dentro de esta novedosa y amplia página.
+
+            El análisis de pacientes geriátricos con diabetes revela tanto fortalezas como desafíos significativos en relación a su alimentación y estilo de vida. Las fortalezas incluyen la independencia, el apoyo familiar y la conciencia de la enfermedad, lo que contribuye a la autogestión y la toma de decisiones informadas. Sin embargo, se enfrentan a desafíos laborales, falta de educación continua y limitado acceso a opciones de alimentos saludables. Abordar estos desafíos requerirá colaboración entre empleadores, profesionales de la salud y programas educativos, además de esfuerzos para mejorar la disponibilidad de alimentos saludables en comunidades de bajos recursos.
+          </p>
+
+          <h2 className="text-black font-semibold text-m">LINK 5: ALIMENTACIÓN </h2>
+
+          <p>Las entrevistas revelan que la mayoría de las personas adultas mayores encuestadas tienen hábitos de alimentación relativamente saludables, destacando la inclusión de verduras, leche, huevos, arroz, pollo y carne en su dieta. Además, consideran el desayuno como la comida más importante del día debido a la necesidad de energía después del ayuno nocturno.
+
+            Sin embargo, también se identifican problemas alimenticios, como la intolerancia al gluten en una de las entrevistadas y la presencia de alimentos que pueden causar problemas digestivos. En términos de lugar y compañía para comer, la mayoría vive con sus familias, lo que puede influir en sus hábitos alimenticios. A menudo, buscan la compañía de sus hijos para compartir comidas y combatir la soledad, lo que demuestra la importancia de la interacción social en su bienestar emocional. En general, se destaca la conciencia de la importancia de la alimentación en la tercera edad y la influencia de factores emocionales y sociales en sus hábitos.
+          </p>
+
+          <h2 className="text-black font-semibold text-m">LINK 6: NIVEL DE DEPENDENCIA </h2>
+
+
+          <p>Las entrevistas revelan que la mayoría de las personas diabéticas han convivido con la enfermedad durante varios años, con un enfoque en el control de la glucosa a través del uso de medicamentos. Aunque la mitad de los entrevistados ha mantenido el mismo medicamento, la otra mitad experimentó cambios debido a problemas gastrointestinales y niveles de glucosa incontrolables. El control de la glucosa y el tratamiento médico son aspectos importantes de su rutina. Además, se destaca que la mayoría de los entrevistados ha mantenido un seguimiento constante de sus valores de glucosa y el tratamiento médico indicado, lo que refleja un compromiso con el cuidado de su salud.
+
+            En cuanto a los hábitos de vida, la conciencia sobre la diabetes ha llevado a cambios significativos en la alimentación y el abandono de malos hábitos, como el tabaco y el alcohol. El miedo a la enfermedad también influye en la adopción de hábitos más saludables. En general, las respuestas muestran una adaptación positiva a la enfermedad y un compromiso con un estilo de vida más saludable.
+          </p>
+        </div>
+      </section>
+
+      <section  id='fin' className='scroll-mt-[9rem] mt-20 pl-10'>
+        <h2 className="text-2xl font-bold">Conclusión:</h2>
+        <p>En el ámbito de la fisioterapia, es crucial reconocer que los adultos mayores con diabetes enfrentan desafíos únicos para mantener una buena calidad de vida. La diabetes puede afectar negativamente la función neuromuscular y cardiovascular, lo que aumenta el riesgo de complicaciones y disminución de la movilidad. La fisioterapia desempeña un papel vital en la mejora de la calidad de vida de estos individuos al enfocarse en la rehabilitación, la gestión del dolor y la promoción de la actividad física segura. Nosotros como fisioterapeutas trabajamos en estrecha colaboración con los pacientes para mejorar su fuerza, equilibrio y movilidad, lo que puede ayudar a prevenir caídas y lesiones. Además, podemos ofrecer un asesoramiento sobre el autocuidado y la prevención de complicaciones relacionadas con la diabetes, lo que contribuye a un envejecimiento más saludable y activo en esta población específica. La fisioterapia no solo aborda los aspectos físicos, sino que también promueve la independencia y la calidad de vida en adultos mayores con diabetes, permitiéndoles mantener un estilo de vida más pleno y activo.
+        </p>
+        <h3>Recomendación:</h3>
+
+        <p>
+          Mantener un estilo de vida activo como la actividad física es esencial para controlar la diabetes, realiza ejercicios de bajo impacto como caminar, nadar o andar en bicicleta, siempre siguiendo las recomendaciones de tu fisioterapeuta y médico. Controlar los niveles de azúcar en sangre, manteniendo un seguimiento constante de los niveles de glucosa en sangre y ajusta tu plan de ejercicios en consecuencia. Una postura adecuada puede ayudar a prevenir problemas de espalda y articulaciones. Fortalecer la musculatura ya que la diabetes puede debilitar los músculos y huesos, realizando un programa de ejercicios para fortalecer los grupos musculares específicos y mejorar la estabilidad.
+        </p>
       </section>
     </>
 
